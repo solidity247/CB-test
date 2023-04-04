@@ -1,0 +1,29 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint</title>
+    <script src="{{ url_for('static', filename='carbon_footprint.js') }}"></script>
+</head>
+<body>
+    <h1>Carbon Footprint</h1>
+     <p id="carbon-footprint-value"> </p>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint</title>
+</head>
+<body>
+    <h1>Carbon Footprint111221</h1>
+    <p>Diet: {{ carbon_footprint["diet"] }}</p>
+    <p>Energy: {{ carbon_footprint["energy"] }}</p>
+    <p>Transportation: {{ carbon_footprint["transportation"] }}</p>
+</body>
+</html>
